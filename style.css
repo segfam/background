@@ -35,6 +35,45 @@ h1 {
 ul {
     display: flex;
     justify-content: center;
-    list-style: none; /* Remove the default list styles */
-    padding: 0; /* Remove any default padding */
+    list-style: none;
+    padding: 0;
+}
+  .contact-info {
+    text-align: left;
+    padding-left: 20px;
+}
+.address {
+    text-align: left;
+    padding-left: 20px;
+}
+.about-me {
+    text-align: left;
+    padding-left: 20px;
+}
+.about-me p, .about-me br {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    text-align: left;
+    padding-left: 20px;
+}
+.home p, .home br {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dfdbdb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
+  h1 {
+    color: #333;
+  }
+  
+
+
+
+
