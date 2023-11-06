@@ -32,3 +32,9 @@ h1 {
 .navbar li {
     float: left;
 }
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Remove the default list styles */
+    padding: 0; /* Remove any default padding */
+  }
