@@ -35,6 +35,17 @@ h1 {
 ul {
     display: flex;
     justify-content: center;
-    list-style: none; /* Remove the default list styles */
-    padding: 0; /* Remove any default padding */
-  }
+    list-style: none;
+    padding: 0;
+}
+  .contact-info {
+    text-align: left;
+    padding-left: 20px;
+}
+.address {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
