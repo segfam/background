@@ -1,6 +1,6 @@
-# Background Color Changer
+# My QA website
 
-This simple JavaScript project allows you to change the background color of a web page by pressing a button.
+This is my own QA website where i will say my words
 
 # The site is live on : 
 https://segfam.github.io/background/
