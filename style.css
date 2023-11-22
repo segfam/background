@@ -11,8 +11,9 @@
 }
 
 body {
-    margin: 0;
+    margin: 20px;
     background: rgb(200, 199, 199);
+    line-height: 1.6;
 }
 h1 {
     text-align: center;
@@ -120,4 +121,41 @@ ul li:hover ul.dropdown {
     .container {
         padding: 20px;
     }
+}
+
+header {
+    background-color:grey;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+article {
+    margin-bottom: 20px;
+}
+article p {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+pre {
+    background-color:grey;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
 }
