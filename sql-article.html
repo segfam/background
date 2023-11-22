@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>background color</title>
+</head>s
+<body>
+    <h1>The QA Way</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+                <a href="#">Projects</a>
+                <ul class="dropdown">
+                    <li><a href="#">Project 1</a></li>
+                    <li><a href="#">Project 2</a></li>
+                    <li><a href="#">Project 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Introduction to SQL</h1>
+    </header>
+    <section id="content">
+        <article>
+            <h2>What is SQL?</h2>
+            <p>
+                SQL, or Structured Query Language, is a powerful tool for managing and querying data in a relational database
+                management system.
+            </p>
+        </article>
+        <article>
+            <h2>What can SQL do?</h2>
+            <p>
+                SQL can perform various operations, including executing queries, retrieving data, inserting records, updating
+                records, deleting records, and more.
+            </p>
+        </article>
+        <article>
+            <h2>SQL Syntax :</h2>
+            <pre>
+                <code>
+                    SELECT *
+                        FROM &lt;Table Name&gt;
+                        WHERE &lt;Condition&gt;
+                </code>
+            </pre>
+            <p>
+                The main syntax of SQL includes a SELECT statement, which is used to query data from a table. The wildcard (*) is used to select all columns. The FROM clause specifies the table from which to retrieve data, and the WHERE clause filters the results based on a specified condition.
+            </p>
+        </article>
+        <article>
+            <h2>Table Example :</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>CITY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bob</td>
+                        <td>20</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>London</td>
+                    </tr>
+                    <tr>
+                        <td>Donald</td>
+                        <td>34</td>
+                        <td>Paris</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>Query Example:</h2>
+            <p>
+                To retrieve data from this table and find students living in London, we would write the following SQL query :
+            </p>
+            <pre>
+                <code>
+                    SELECT *
+                    FROM Students
+                    WHERE City = 'London'
+                </code>
+            </pre>
+        </article>
+        <article>
+            <h2>Output Example:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>CITY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>London</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+    </section>
+</body>
+</html>
